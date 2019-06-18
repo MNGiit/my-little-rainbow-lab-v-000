@@ -1,7 +1,3 @@
-div.red {
-  color: red;
-}
-
 div {
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
@@ -14,3 +10,6 @@ div {
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
 
+#red { /* this selects any elements with the red id */
+  color: #f00;
+}
